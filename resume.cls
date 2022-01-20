@@ -25,6 +25,9 @@
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
+\usepackage{hyperref} % Required for links KN
+\usepackage{etaremune} % Required for reverse numbering KN
+\usepackage{booktabs} % Required for nice tables KN
 
 \pagestyle{empty} % Suppress page numbers
 
