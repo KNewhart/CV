@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.8) (format=lualatex 2021.10.12)  1 FEB 2022 14:07
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.8) (format=lualatex 2021.10.12)  15 APR 2022 08:38
  restricted system commands enabled.
 **CV.tex
 (./CV.tex
@@ -435,10 +435,6 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 32--32
 [] 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 32.
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -489,16 +485,14 @@ Type  H <return>  for immediate help.
 l.64 
    
 ? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 \end{rSubsection}
-                     
-? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 83.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 83.
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -509,11 +503,21 @@ Type  H <return>  for immediate help.
 l.104 \end{rSubsection}
                      
 ? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 \end{rSubsection}
+                     
+? 
 [1
 
 {C:/Users/kathryn.newhart/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 ! Undefined control sequence.
-l.188 ...ng in R for the Water Professional'' \empth
+l.191 ...ng in R for the Water Professional'' \empth
                                                   {MoWaTER PRO: Data Science...
 ? 
 [2] [3] (./CV.aux)
@@ -522,28 +526,29 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 9073 strings out of 478089
+ 9082 strings out of 478089
  125056,552014 words of node,token memory allocated
  568 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 14 glyph, 17 attribute, 50 glue_spe
 c, 17 attribute_list, 1 write nodes
-   avail lists: 2:716,3:271,4:7,5:685,6:56,7:10284,8:6,9:442,10:6,11:899
- 29145 multiletter control sequences out of 65536+600000
- 40 fonts using 4142607 bytes
- 75i,9n,76p,573b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+   avail lists: 2:750,3:274,4:9,5:653,6:59,7:10365,8:6,9:487,10:7,11:862
+ 29154 multiletter control sequences out of 65536+600000
+ 47 fonts using 4647671 bytes
+ 75i,12n,76p,573b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 <//?/c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/publi
-c/lm/lmroman8-italic.otf><//?/c:/users/kathryn.newhart/appdata/local/programs/mi
-ktex/fonts/opentype/public/lm/lmroman8-regular.otf><//?/c:/users/kathryn.newhart
-/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-italic.otf><//
-?/c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/public/l
-m/lmroman10-bold.otf><//?/c:/users/kathryn.newhart/appdata/local/programs/miktex
-/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/kathryn.newhart/ap
-pdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><C:/User
-s/kathryn.newhart/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-msy10.pfb>
-Output written on CV.pdf (3 pages, 54083 bytes).
+c/lm/lmroman8-regular.otf><//?/c:/users/kathryn.newhart/appdata/local/programs/m
+iktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/users/kathryn.newhar
+t/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman7-regular.otf></
+/?/c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/public/
+lm/lmroman10-italic.otf><//?/c:/users/kathryn.newhart/appdata/local/programs/mik
+tex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/kathryn.newhart/ap
+pdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/
+c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/public/lm/
+lmroman12-bold.otf><C:/Users/kathryn.newhart/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on CV.pdf (3 pages, 56601 bytes).
 
-PDF statistics: 67 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 74 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
