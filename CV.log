@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.21)  16 MAR 2023 14:16
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.21)  29 MAR 2023 09:20
  restricted system commands enabled.
 **CV.tex
 (./CV.tex
@@ -523,10 +523,10 @@ Here is how much of LuaTeX's memory you used:
  590 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 16 glyph, 19 attribute, 50 glue_spe
 c, 19 attribute_list, 1 write nodes
-   avail lists: 2:774,3:275,4:11,5:659,6:61,7:10834,8:6,9:527,10:9,11:869
+   avail lists: 1:1,2:757,3:274,4:10,5:659,6:61,7:10669,8:6,9:524,10:9,11:869
  30110 multiletter control sequences out of 65536+600000
  39 fonts using 2723111 bytes
- 75i,12n,77p,573b,539s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 75i,12n,77p,573b,537s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <//?/c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/publi
 c/lm/lmroman8-regular.otf><//?/c:/users/kathryn.newhart/appdata/local/programs/m
 iktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/users/kathryn.newhar
@@ -538,7 +538,7 @@ pdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/
 c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/public/lm/
 lmroman12-bold.otf><C:/Users/kathryn.newhart/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CV.pdf (3 pages, 59284 bytes).
+Output written on CV.pdf (3 pages, 59374 bytes).
 
 PDF statistics: 74 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 131072)
