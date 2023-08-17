@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.21)  17 AUG 2023 09:45
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.21)  17 AUG 2023 09:42
  restricted system commands enabled.
-**CV.tex
-(./CV.tex
+**CV_noteach.tex
+(./CV_noteach.tex
 LaTeX2e <2022-06-01> pre-release-0 (develop 2022-6-21 branch)
 Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
 Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
@@ -351,9 +351,10 @@ ackend-luatex.def
 File: l3backend-luatex.def 2022-04-20 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box53
-) (./CV.aux)
-\openout1 = CV.aux
+)
+No file CV_noteach.aux.
 
+\openout1 = CV_noteach.aux
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
@@ -382,10 +383,9 @@ LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 Package hyperref Info: Link coloring OFF on input line 32.
- (./CV.out) (./CV.out)
 \@outlinefile=\write3
 
-\openout3 = CV.out
+\openout3 = CV_noteach.out
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -466,24 +466,10 @@ Type  H <return>  for immediate help.
 l.56 \end{rSubsection}
                     
 ? 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 
-   
-? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 68.
+(Font)              <7> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 68.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 84.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 84.
+(Font)              <5> on input line 66.
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -491,8 +477,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 \end{rSubsection}
-                     
+l.71 \end{rSubsection}
+                    
 ? 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -501,46 +487,73 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \end{rSubsection}
-                     
+l.74 \end{rSubsection}
+                    
 ? 
 [1
 
 {C:/Users/kathryn.newhart/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2]
 ! Undefined control sequence.
-l.214 ...ng in R for the Water Professional'' \empth
+l.183 ...ng in R for the Water Professional'' \empth
                                                   {MoWaTER PRO: Data Science...
 ? 
-[3] [4] (./CV.aux)
-Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+[2]
+Overfull \hbox (4.0165pt too wide) in paragraph at lines 189--190
+[]\TU/lmr/m/n/10 ``Un-der-stand-ing and Em-brac-ing Ma-chine Learn-ing, Ar-ti-fi
+-cial In-tel-li-gence and Pre-dic-tive An-a-lyt-ics,'' \TU/lmr/m/it/10 AWWA/SWAN
+
+ []
+
+
+LaTeX Warning: Etaremune labels have changed.
+               Rerun to get them right.
+
+
+! LaTeX Error: \begin{list} on input line 38 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 \end{document}
+                  
+? 
+[3] (./CV_noteach.aux)
+
+Package rerunfilecheck Warning: File `CV_noteach.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CV_noteach.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 )
+(\end occurred inside a group at level 2)
+
+### semi simple group (level 2) entered at line 38 (\begingroup)
+### semi simple group (level 1) entered at line 38 (\begingroup)
+### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 9439 strings out of 477494
+ 9412 strings out of 477494
  125056,552014 words of node,token memory allocated
- 590 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 16 glyph, 19 attribute, 50 glue_spe
-c, 19 attribute_list, 1 write nodes
-   avail lists: 1:1,2:757,3:274,4:10,5:678,6:58,7:10669,8:6,9:524,10:9,11:895
- 30110 multiletter control sequences out of 65536+600000
- 39 fonts using 2723111 bytes
- 75i,12n,77p,573b,537s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 650 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 16 glyph, 19 attribute, 61 glue_spe
+c, 19 attribute_list, 1 shape, 1 write nodes
+   avail lists: 2:698,3:319,4:8,5:656,6:67,7:11315,8:6,9:483,10:6,11:904
+ 30099 multiletter control sequences out of 65536+600000
+ 30 fonts using 1954607 bytes
+ 75i,5n,77p,581b,619s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <//?/c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/publi
-c/lm/lmroman8-regular.otf><//?/c:/users/kathryn.newhart/appdata/local/programs/m
-iktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/users/kathryn.newhar
-t/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman7-regular.otf></
-/?/c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/public/
-lm/lmroman10-italic.otf><//?/c:/users/kathryn.newhart/appdata/local/programs/mik
-tex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/kathryn.newhart/ap
-pdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/
-c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/public/lm/
-lmroman12-bold.otf><C:/Users/kathryn.newhart/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CV.pdf (4 pages, 60741 bytes).
+c/lm/lmroman10-italic.otf><//?/c:/users/kathryn.newhart/appdata/local/programs/m
+iktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/kathryn.newhart/
+appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//
+?/c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/public/l
+m/lmroman12-bold.otf><C:/Users/kathryn.newhart/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on CV_noteach.pdf (3 pages, 50446 bytes).
 
-PDF statistics: 78 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 131072)
+PDF statistics: 53 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
