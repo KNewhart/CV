@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.21)  17 AUG 2023 09:45
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.21)  5 SEP 2023 09:53
  restricted system commands enabled.
 **CV.tex
 (./CV.tex
@@ -467,23 +467,15 @@ l.56 \end{rSubsection}
                     
 ? 
 
-! LaTeX Error: There's no line here to end.
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 
-   
+l.65 \end{rSubsection}
+                    
 ? 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 68.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 68.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 84.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 84.
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -491,7 +483,35 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 \end{rSubsection}
+l.68 \end{rSubsection}
+                    
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 
+   
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 82.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 82.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 98.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 98.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{rSubsection}
                      
 ? 
 
@@ -501,7 +521,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \end{rSubsection}
+l.119 \end{rSubsection}
                      
 ? 
 [1
@@ -509,24 +529,24 @@ l.105 \end{rSubsection}
 {C:/Users/kathryn.newhart/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 [2]
 ! Undefined control sequence.
-l.214 ...ng in R for the Water Professional'' \empth
+l.231 ...ng in R for the Water Professional'' \empth
                                                   {MoWaTER PRO: Data Science...
 ? 
-[3] [4] (./CV.aux)
+[3] [4] [5] (./CV.aux)
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 9439 strings out of 477494
+ 9440 strings out of 477494
  125056,552014 words of node,token memory allocated
  590 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 16 glyph, 19 attribute, 50 glue_spe
 c, 19 attribute_list, 1 write nodes
-   avail lists: 1:1,2:757,3:274,4:10,5:678,6:58,7:10669,8:6,9:524,10:9,11:895
+   avail lists: 1:1,2:796,3:295,4:10,5:682,6:61,7:9758,8:6,9:519,10:9,11:888
  30110 multiletter control sequences out of 65536+600000
  39 fonts using 2723111 bytes
- 75i,12n,77p,573b,537s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 75i,12n,77p,573b,539s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <//?/c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/publi
 c/lm/lmroman8-regular.otf><//?/c:/users/kathryn.newhart/appdata/local/programs/m
 iktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/users/kathryn.newhar
@@ -538,9 +558,9 @@ pdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/
 c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/public/lm/
 lmroman12-bold.otf><C:/Users/kathryn.newhart/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CV.pdf (4 pages, 60741 bytes).
+Output written on CV.pdf (5 pages, 61807 bytes).
 
-PDF statistics: 78 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 131072)
+PDF statistics: 82 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
