@@ -24,12 +24,28 @@
 
 \usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry} % Document margins
 \usepackage{soul} % \ul function for underlining with line breaks
+\usepackage{fancyhdr} % For custom page headers and footers KN
 
 \name{Kathryn B. Newhart} % Your name
 %\address{646 Swift Road, West Point, New York 10996} % Your address
 \address{kbnewhart@gmail.com} % Your phone number and email
 
 \begin{document}
+
+% Page style for the first page (empty)
+\fancypagestyle{firstpage}{
+  \fancyhf{} % Clear header and footer
+  \renewcommand{\headrulewidth}{0pt} % Remove header line
+  \renewcommand{\footrulewidth}{0pt} % Remove footer line
+}
+\thispagestyle{firstpage} % Apply the "firstpage" style to the first page
+
+% Page style for the rest of the document
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+\fancyfoot[C]{\thepage} % Page number in the footer
+\renewcommand{\headrulewidth}{0pt} % Remove header line
+\renewcommand{\footrulewidth}{0pt} % Remove footer line
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -55,6 +71,7 @@
 \begin{rSubsection}{Colorado School of Mines}{May 2016 - May 2019}{Teaching and Research Assistant}{Golden, CO}
 \end{rSubsection}
 
+\sectionskip
 %-----
 %  AFFILIATED INSTITUTIONS 
 %
@@ -69,6 +86,9 @@
 
 \end{rSection}
 
+\sectionskip
+
+\sectionskip
 %----------------------------------------------------------------------------------------
 %	TEACHING SECTION
 %----------------------------------------------------------------------------------------
@@ -101,6 +121,7 @@
 
 \end{rSection}
 
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
@@ -120,9 +141,7 @@
 
 \end{rSection}
 
-
-
-
+\newpage
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATION SECTION
@@ -158,17 +177,6 @@
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	NON-PEER REVIEWED PUBLICATIONS
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Non-refereed Publications}
-
-Weintraut, Z., \textbf{Newhart, K.}, Thompson, K., Roostaei, J., ``Are you ready for big data? A checklist for readiness for data analytics in water utilities,'' \emph{Journal AWWA}, 2022, 114, 10, 78-82
-
-\textbf{Newhart, K.B.} \& Avila, I., ``NDMA: relevance and regulatory status for drinking water facilities,'' \emph{Rocky Mountain Water}, November 2017
-
-\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	RESEARCH SECTION
@@ -182,9 +190,50 @@ Weintraut, Z., \textbf{Newhart, K.}, Thompson, K., Roostaei, J., ``Are you ready
 ``Data-driven Fault Detection and Process Control for Potable Reuse with Reverse Osmosis,'' National Alliance for Water Innovation, Autonomous Water and Precision Separations. NAWI-2-2021. Awarded 2022. Total award \$1,034,000. \ul{Principal Investigator at West Point}.
 
 ``Crossing the Finish Line: Integration of Data-Driven Process Control for Maximization of Energy and Resource Efficiency in Advanced Water Resource Recovery Facilities,'' U.S. Department of Energy, Research and Development for Advanced Water Resource Recovery Systems. DE-FOA-0002336. Awarded 2021. Total award \$2,400,000. \ul{Principal Investigator at West Point}.
+
+``Advancing Energy Resilience through Demonstrating, Characterizing, and Modeling Anaerobic Co-digestion of Organic Wastes for Widespread Implementation on DOD Installations.''  U.S. Department of Defense, Environmental Security Technology Certification Program. Total award \$925,000. \ul{co-Principal Investigator}.
+
 \end{rSection}
 
-\newpage
+
+
+%----------------------------------------------------------------------------------------
+%	WORKSHOP SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Workshops}
+
+``Defining Pathways for Solving Environmental Challenges using Machine Learning'' \emph{AEESP Annual Conference}, 2023, Organizer
+
+``A Convergence of WRF Machine Learning Based Controller Implementation and Research'' \emph{WEF/IWA Innovations in Process Engineering}, June 6, 2023, Facilitator and presenter
+
+``Visualization, Analysis, and Modeling in R for the Water Professional'' \empth{MoWaTER PRO: Data Science Workshop}, 2021 \& 2022, Organizer
+
+``Machine Learning in the Water Industry'' \emph{WEF/IWA Innovations in Process Engineering}, June 8, 2021, Organizer
+
+``A Hypothetical – Potable Reuse Moves Towards Artificial Intelligence,'' \emph{36th Annual WateReuse Symposium}, March 1, 2021, Panelist
+
+``Understanding and Embracing Machine Learning, Artificial Intelligence and Predictive Analytics,'' \emph{AWWA/SWAN International Smart Water Symposium}, November 10, 2020, Facilitator and presenter
+
+``Data Research Advances Water Industry,'' \emph{NSF Mid-scale Research Infrastructure Workshop for Intelligent Water Systems}, August 25, 2020, Virtual, Facilitator and presenter
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	INVITED TALKS
+%----------------------------------------------------------------------------------------
+
+
+
+\begin{rSection}{Invited Talks}
+
+``Artificial Intelligence in the Water Industry'' Orange County Water District, August 1, 2023, \href{https://www.youtube.com/watch?v=M3AQTs5iN5g&list=PLUMrNJO9gBM-7WWzJmBveXSQWbOXrLBDg}{URL}
+
+``Understanding and Embracing Machine Learning, Artificial Intelligence and Predictive Analytics'' Metropolitan Water Reclamation District of Greater Chicago, June 30, 2023
+
+\end{rSection}
+
 
 %----------------------------------------------------------------------------------------
 %	CONFERENCE SECTION
@@ -224,36 +273,20 @@ Weintraut, Z., \textbf{Newhart, K.}, Thompson, K., Roostaei, J., ``Are you ready
 %
 \end{rSection}
 
+
 %----------------------------------------------------------------------------------------
-%	WORKSHOP SECTION
+%	NON-PEER REVIEWED PUBLICATIONS
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Workshops}
+\begin{rSection}{Non-refereed Publications}
 
-``Defining Pathways for Solving Environmental Challenges using Machine Learning'' \emph{AEESP Annual Conference}, 2023, Organizer
+Weintraut, Z., \textbf{Newhart, K.}, Thompson, K., Roostaei, J., ``Are you ready for big data? A checklist for readiness for data analytics in water utilities,'' \emph{Journal AWWA}, 2022, 114, 10, 78-82
 
-``A Convergence of WRF Machine Learning Based Controller Implementation and Research'' \emph{WEF/IWA Innovations in Process Engineering}, June 6, 2023, Facilitator and presenter
-
-``Visualization, Analysis, and Modeling in R for the Water Professional'' \empth{MoWaTER PRO: Data Science Workshop}, 2021 \& 2022, Organizer
-
-``Machine Learning in the Water Industry'' \emph{WEF/IWA Innovations in Process Engineering}, June 8, 2021, Organizer
-
-``A Hypothetical – Potable Reuse Moves Towards Artificial Intelligence,'' \emph{36th Annual WateReuse Symposium}, March 1, 2021, Panelist
-
-``Understanding and Embracing Machine Learning, Artificial Intelligence and Predictive Analytics,'' \emph{AWWA/SWAN International Smart Water Symposium}, November 10, 2020, Facilitator and presenter
-
-``Data Research Advances Water Industry,'' \emph{NSF Mid-scale Research Infrastructure Workshop for Intelligent Water Systems}, August 25, 2020, Virtual, Facilitator and presenter
+\textbf{Newhart, K.B.} \& Avila, I., ``NDMA: relevance and regulatory status for drinking water facilities,'' \emph{Rocky Mountain Water}, November 2017
 
 \end{rSection}
 
-\begin{rSection}{Invited Talks}
-
-``Artificial Intelligence in the Water Industry'' Orange County Water District, August 1, 2023
-
-``Understanding and Embracing Machine Learning, Artificial Intelligence and Predictive Analytics'' Metropolitan Water Reclamation District of Greater Chicago, June 30, 2023
-
-\end{rSection}
-
+\newpage
 
 %----------------------------------------------------------------------------------------
 %	LEADERSHIP SECTION
@@ -270,6 +303,11 @@ President, CSM Campus Chapter of the Rocky Mountain Section of the American Wate
 Co-Chair, 15th Annual RMSAWWA/RMWEA Joint Student Conference, 2018
 
 \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SERVICE SECTION
+%----------------------------------------------------------------------------------------
+
 
 \begin{rSection}{Service}
 

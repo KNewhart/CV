@@ -28,6 +28,7 @@
 \usepackage{hyperref} % Required for links KN
 \usepackage{etaremune} % Required for reverse numbering KN
 \usepackage{booktabs} % Required for nice tables KN
+\usepackage{fancyhdr} % For custom page headers and footers KN
 
 \pagestyle{empty} % Suppress page numbers
 
