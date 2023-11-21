@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.21)  5 NOV 2023 10:39
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.21)  21 NOV 2023 11:47
  restricted system commands enabled.
 **CV.tex
 (./CV.tex
@@ -557,7 +557,7 @@ Here is how much of LuaTeX's memory you used:
  661 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 22 glyph, 25 attribute, 51 glue_spe
 c, 25 attribute_list, 1 write nodes
-   avail lists: 2:1009,3:276,4:10,5:680,6:83,7:10081,8:6,9:678,10:9,11:903
+   avail lists: 2:1009,3:276,4:10,5:681,6:77,7:10055,8:6,9:678,10:9,11:899
  30284 multiletter control sequences out of 65536+600000
  39 fonts using 2723111 bytes
  75i,12n,77p,573b,349s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -572,7 +572,7 @@ pdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/
 c:/users/kathryn.newhart/appdata/local/programs/miktex/fonts/opentype/public/lm/
 lmroman12-bold.otf><C:/Users/kathryn.newhart/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CV.pdf (4 pages, 63590 bytes).
+Output written on CV.pdf (4 pages, 63368 bytes).
 
 PDF statistics: 80 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 131072)
