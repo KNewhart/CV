@@ -1,20 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV
-% LaTeX Template
-% Version 2.0 (8/5/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Trey Hunner (http://www.treyhunner.com/)
-%
-% Important note:
-% This template requires the resume.cls file to be in the same directory as the
-% .tex file. The resume.cls file provides the resume style used for structuring the
-% document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -28,7 +11,6 @@
 
 \name{Kathryn B. Newhart} % Your name
 %\address{646 Swift Road, West Point, New York 10996} % Your address
-%\address{kbnewhart@gmail.com} % Your phone number and email
 \address{kathryn.newhart@oregonstate.edu} % Your phone number and email
 
 \begin{document}
@@ -51,7 +33,7 @@
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\work}{
 \begin{rSection}{Professional Experience}
 
 \begin{rSubsection}{Oregon State University}{June 2024 - Present}{Assistant Professor of Environmental Engineering}{Corvallis,OR}
@@ -67,15 +49,6 @@
 \begin{rSubsection}{Metro Wastewater Reclamation District}{March 2020 - May 2021}{Technology \& Innovation Engineer Associate}{Denver, CO}
 \end{rSubsection}
 
-%------------------------------------------------
-
-\begin{rSubsection}{Red Rocks Community College}{August 2020 - December 2020}{Water Quality Management Instructor}{Lakewood, CO}
-\end{rSubsection}
-
-%------------------------------------------------
-
-%\begin{rSubsection}{Colorado School of Mines}{May 2016 - May 2019}{Teaching and Research Assistant}{Golden, CO}
-%\end{rSubsection}
 
 \sectionskip
 %-----
@@ -95,18 +68,21 @@
 \sectionskip
 
 \sectionskip
+}
+
+
+
 %----------------------------------------------------------------------------------------
 %	TEACHING SECTION
 %----------------------------------------------------------------------------------------
-
-%\begin{rSection}{Teaching}
+\newcommand{\teaching}{
+\begin{rSection}{Teaching}
 \\
-
 \begin{table}[h]
 \centering
-\textbf{Teaching experience}
+%\textbf{Teaching experience}
 \begin{tabular}{lllc}
-\toprule
+%\toprule
   \emph{Institution} & \emph{Course} & \emph{Title (Credit Hours)} & \emph{Semesters}\\
 \midrule			
   USMA & EV201\textsuperscript{1}& Introduction to Environmental Engineering (3) & 2  \\
@@ -127,12 +103,14 @@
 \end{table}
 
 \end{rSection}
+}
+
 
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\education}{
 \begin{rSection}{Education}
 
 \begin{rSubsection}{Doctor of Philosophy}{2018 - 2020}{Civil and Environmental Engineering}{Colorado School of Mines, Golden, CO}
@@ -147,13 +125,13 @@
 \end{rSubsection}
 
 \end{rSection}
+}
 
-\newpage
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATION SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\pubs}{
 \begin{rSection}{Publications}
 \begin{etaremune}
 
@@ -185,14 +163,14 @@
 \end{etaremune}
 
 \end{rSection}
+}
 
 
 %----------------------------------------------------------------------------------------
 %	RESEARCH SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\research}{
 \begin{rSection}{Research}
-\emph{Note: Federal law restricts participation and funding from federal agencies outside of the Department of Defense.}
 
 ``Unlocking the Nationwide Potential of Water Reuse,'' U.S. Environmental Protection Agency, National Priorities: Water Innovation, Science, and Engagement to Advance Water Reuse. EPA-G2021-ORD\&EI. Awarded 2023. Total award \$4,000,000. \ul{Research Partner at West Point}.
 
@@ -203,13 +181,13 @@
 ``Advancing Energy Resilience through Demonstrating, Characterizing, and Modeling Anaerobic Co-digestion of Organic Wastes for Widespread Implementation on DOD Installations.''  U.S. Department of Defense, Environmental Security Technology Certification Program. Total award \$925,000. \ul{co-Principal Investigator}.
 
 \end{rSection}
-
+}
 
 
 %----------------------------------------------------------------------------------------
 %	WORKSHOP SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\workshops}{
 \begin{rSection}{Workshops}
 
 ``Defining Pathways for Solving Environmental Challenges using Machine Learning'' \emph{AEESP Annual Conference}, 2023, Organizer
@@ -225,14 +203,14 @@
 ``Data Research Advances Water Industry,'' \emph{NSF Mid-scale Research Infrastructure Workshop for Intelligent Water Systems}, August 25, 2020, Virtual, Facilitator and presenter
 
 \end{rSection}
-
+}
 
 %----------------------------------------------------------------------------------------
 %	INVITED TALKS
 %----------------------------------------------------------------------------------------
 
 
-
+\newcommand{\invitedTalks}{
 \begin{rSection}{Invited Talks}
 
 ``Machine Learning to the Rescue: Mining data to optimize water reclamation disinfection.,'' Water Environment Federation, June 13, 2024, Webcast, Presenter
@@ -247,11 +225,11 @@
 
 \end{rSection}
 
-
+}
 %----------------------------------------------------------------------------------------
 %	CONFERENCE SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\conferences}{
 \begin{rSection}{Select Conference Presentations}
 
 ``Prediction of Post-Secondary E. coli for Disinfection Control: Application of statistical and machine learning algorithms.'' WEF/IWA Innovations in Process Engineering, June 9, 2023, Portland, OR
@@ -285,12 +263,12 @@
 %Newhart, K.B. & Avila, I., NDMA: relevance and regulatory status for drinking water facilities, Rocky Mountain Water, November 2017
 %
 \end{rSection}
-
+}
 
 %----------------------------------------------------------------------------------------
 %	NON-PEER REVIEWED PUBLICATIONS
 %----------------------------------------------------------------------------------------
-
+\newcommand{\nonPubs}{
 \begin{rSection}{Non-refereed Publications}
 
 Weintraut, Z., \textbf{Newhart, K.}, Thompson, K., Roostaei, J., ``Are you ready for big data? A checklist for readiness for data analytics in water utilities,'' \emph{Journal AWWA}, 2022, 114, 10, 78-82
@@ -298,13 +276,12 @@ Weintraut, Z., \textbf{Newhart, K.}, Thompson, K., Roostaei, J., ``Are you ready
 \textbf{Newhart, K.B.} \& Avila, I., ``NDMA: relevance and regulatory status for drinking water facilities,'' \emph{Rocky Mountain Water}, November 2017
 
 \end{rSection}
-
-\newpage
+}
 
 %----------------------------------------------------------------------------------------
 %	LEADERSHIP SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\leadership}{
 \begin{rSection}{Leadership}
 
 Chair,  National Water Research Institute (NWRI) Independent Expert Panel, supporting \emph{Data-Driven Fault Detection and Process Control for Potable Reuse with Reverse Osmosis Project}
@@ -316,11 +293,11 @@ President, CSM Campus Chapter of the Rocky Mountain Section of the American Wate
 Co-Chair, 15th Annual RMSAWWA/RMWEA Joint Student Conference, 2018
 
 \end{rSection}
-
+}
 %----------------------------------------------------------------------------------------
 %	SERVICE SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\service}{
 
 \begin{rSection}{Service}
 
@@ -344,10 +321,11 @@ Co-Chair, 15th Annual RMSAWWA/RMWEA Joint Student Conference, 2018
 \end{itemize}
 
 \end{rSection}
-
+}
 %----------------------------------------------------------------------------------------
 %	PROFESSIONAL MEMBERSHIPS
 %----------------------------------------------------------------------------------------
+\newcommand{\memberships}{
 \begin{rSection}{Professional Memberships}
 
 American Society of Engineering Education
@@ -359,20 +337,21 @@ National Center for Faculty Development and Diversity
 Water Environment Federation
 
 \end{rSection}
-
+}
 %----------------------------------------------------------------------------------------
 %	IN THE NEWS SECTION
 %----------------------------------------------------------------------------------------
+\newcommand{\news}{
 \begin{rSection}{In The News}
 
 Newhart, K. B., Marks, C., Rauch-Williams, T., Cath, T. Y., Hering, A. S. (2020) “Boulder tests its waters with predictive aeration control,” Advances in Water Research, 30: 25–28. \href{https://www.advancesinwaterresearch.org/awr/20200709/MobilePagedArticle.action?articleId=1621836&pm=1#articleId1621836}{URL}.
 \end{rSection}
 
-
+}
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\awards}{
 \begin{rSection}{Awards}
 
 ASEE Environmental Engineering Division Early Career Award, 2022
@@ -384,11 +363,11 @@ WEF/WRF LIFT Intelligent Water System Challenge, 1st place, 2019
 AWRA-Colorado Rich Herbert Memorial Scholarship, 2019
 
 \end{rSection}
-
+}
 %----------------------------------------------------------------------------------------
 %	CERTIFICATIONS SECTION
 %----------------------------------------------------------------------------------------
-
+\newcommand{\certifications}{
 \begin{rSection}{Certifications}
 
 Wastewater Operator, Class D, Colorado, 2016-2024
@@ -396,7 +375,7 @@ Wastewater Operator, Class D, Colorado, 2016-2024
 Fundamentals of Engineering (FE), Environmental, Colorado, NCEES ID 16-475-7
 \end{rSection}
 
-
+}
 %----------------------------------------------------------------------------------------
 %	REFERENCES SECTION
 %----------------------------------------------------------------------------------------
@@ -410,5 +389,41 @@ Fundamentals of Engineering (FE), Environmental, Colorado, NCEES ID 16-475-7
 %Dr. Nancy G. Love, Professor, University of Michigan, nglove@umich.edu, (734) 478-8166
 
 %\end{rSection}
+
+
+
+
+
+
+
+\def\allsections{}
+
+\ifdefined\allsections
+	\work
+	\teaching
+	\education
+	\newpage
+
+	\pubs
+	\research
+
+	\workshops
+	\invitedTalks
+	\conferences
+	\newpage
+
+	\nonPubs
+	\leadership
+	\service
+	\membership
+	\news
+	\awards
+	\certifications
+	
+\fi
+
+
+
+
 
 \end{document}
