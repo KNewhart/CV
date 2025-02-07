@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.5)  6 FEB 2025 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.5)  7 FEB 2025 09:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -406,7 +406,7 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 16--16
 ! Illegal parameter number in definition of \news.
 <to be read again> 
                    a
-l.350 }
+l.359 }
        
 ? 
 
@@ -416,7 +416,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 	\work
+l.411 	\work
             
 ? 
 
@@ -426,7 +426,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 	\work
+l.411 	\work
             
 ? 
 
@@ -436,7 +436,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 	\work
+l.411 	\work
             
 ? 
 
@@ -446,7 +446,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 	\work
+l.411 	\work
             
 ? 
 
@@ -456,7 +456,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 	\work
+l.411 	\work
             
 ? 
 
@@ -466,17 +466,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.403 	\teaching
+l.412 	\teaching
                 
 ? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 403.
+(Font)              <7> on input line 412.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 403.
+(Font)              <5> on input line 412.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 403.
+(Font)              <8> on input line 412.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 403.
+(Font)              <6> on input line 412.
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -484,7 +484,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 	\education
+l.413 	\education
                  
 ? 
 
@@ -494,7 +494,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 	\education
+l.413 	\education
                  
 ? 
 
@@ -509,11 +509,11 @@ uper/cm-super-ts1.enc}]
 ! Undefined control sequence.
 \workshops ...for the Water Professional'' \empth 
                                                   {MoWaTER PRO: Data Science...
-l.410 	\workshops
+l.419 	\workshops
                  
 ? 
 
-Overfull \hbox (5.03857pt too wide) in paragraph at lines 410--410
+Overfull \hbox (5.03857pt too wide) in paragraph at lines 419--419
 []\OT1/cmr/m/n/10 ``Understanding and Em-brac-ing Ma-chine Learn-ing, Ar-ti-fi-
 cial In-tel-li-gence and Pre-dic-tive An-a-lyt-ics,'' \OT1/cmr/m/it/10 AWWA/SWA
 N
@@ -522,41 +522,159 @@ N
 
 
 [3]
+
+[4]
 ! Undefined control sequence.
-l.418 	\membership
+l.427 	\membership
                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.419 	\news
+l.428 	\news
             
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.419 	\news
+l.428 	\news
             
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.419 	\news
+l.428 	\news
             
 ? 
 
-! LaTeX Error: \begin{list} on input line 402 ended by \end{document}.
+
+[5]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.429 \end{document}
+l.436 	\work
+            
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 	\work
+            
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 	\work
+            
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 	\work
+            
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 	\work
+            
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.437 	\education
+                 
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.437 	\education
+                 
+? 
+
+
+[6]
+! Undefined control sequence.
+\workshops ...for the Water Professional'' \empth 
+                                                  {MoWaTER PRO: Data Science...
+l.442 	\workshops
+                 
+? 
+
+Overfull \hbox (15.03859pt too wide) in paragraph at lines 442--442
+[]\OT1/cmr/m/n/10 ``Understanding and Em-brac-ing Ma-chine Learn-ing, Ar-ti-fi-
+cial In-tel-li-gence and Pre-dic-tive An-a-lyt-ics,'' \OT1/cmr/m/it/10 AWWA/SWA
+N
+ []
+
+
+
+[7]
+
+[8]
+! Undefined control sequence.
+l.450 	\membership
+                  
+? 
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.451 	\news
+            
+? 
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.451 	\news
+            
+? 
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.451 	\news
+            
+? 
+
+! LaTeX Error: \begin{list} on input line 436 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.469 \end{document}
                     
 ? 
 
 
-[4] (./CV.aux)
+[9] (./CV.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -564,19 +682,21 @@ L3 programming layer <2025-01-18>
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 4)
 
-### semi simple group (level 2) entered at line 402 (\begingroup)
-### semi simple group (level 1) entered at line 402 (\begingroup)
+### semi simple group (level 4) entered at line 436 (\begingroup)
+### semi simple group (level 3) entered at line 436 (\begingroup)
+### semi simple group (level 2) entered at line 411 (\begingroup)
+### semi simple group (level 1) entered at line 411 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9274 strings out of 473201
- 149051 string characters out of 5705185
- 566865 words of memory out of 5000000
- 32430 multiletter control sequences out of 15000+600000
+ 9280 strings out of 473201
+ 149093 string characters out of 5705185
+ 567697 words of memory out of 5000000
+ 32431 multiletter control sequences out of 15000+600000
  562567 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,93p,574b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,574b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/newhartk/AppData/Local/texlive/2024/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/newhartk/AppData/Local/texlive/20
 24/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/newhartk/AppD
@@ -589,10 +709,10 @@ cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users
 /newhartk/AppData/Local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti10.pfb><c:/Users/newhartk/AppData/Local/texlive/2024/texmf-dist/fonts/type1
 /public/cm-super/sfrm1000.pfb>
-Output written on CV.pdf (4 pages, 133078 bytes).
+Output written on CV.pdf (9 pages, 147121 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
