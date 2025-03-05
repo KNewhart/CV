@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.5)  7 FEB 2025 09:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.5)  5 MAR 2025 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -406,7 +406,7 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 16--16
 ! Illegal parameter number in definition of \news.
 <to be read again> 
                    a
-l.359 }
+l.363 }
        
 ? 
 
@@ -416,7 +416,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.411 	\work
+l.415 	\work
             
 ? 
 
@@ -426,7 +426,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.411 	\work
+l.415 	\work
             
 ? 
 
@@ -436,7 +436,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.411 	\work
+l.415 	\work
             
 ? 
 
@@ -446,7 +446,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.411 	\work
+l.415 	\work
             
 ? 
 
@@ -456,7 +456,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.411 	\work
+l.415 	\work
             
 ? 
 
@@ -466,17 +466,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.412 	\teaching
+l.416 	\teaching
                 
 ? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 412.
+(Font)              <7> on input line 416.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 412.
+(Font)              <5> on input line 416.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 412.
+(Font)              <8> on input line 416.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 412.
+(Font)              <6> on input line 416.
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -484,7 +484,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.413 	\education
+l.417 	\education
                  
 ? 
 
@@ -494,7 +494,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.413 	\education
+l.417 	\education
                  
 ? 
 
@@ -509,11 +509,11 @@ uper/cm-super-ts1.enc}]
 ! Undefined control sequence.
 \workshops ...for the Water Professional'' \empth 
                                                   {MoWaTER PRO: Data Science...
-l.419 	\workshops
+l.423 	\workshops
                  
 ? 
 
-Overfull \hbox (5.03857pt too wide) in paragraph at lines 419--419
+Overfull \hbox (5.03857pt too wide) in paragraph at lines 423--423
 []\OT1/cmr/m/n/10 ``Understanding and Em-brac-ing Ma-chine Learn-ing, Ar-ti-fi-
 cial In-tel-li-gence and Pre-dic-tive An-a-lyt-ics,'' \OT1/cmr/m/it/10 AWWA/SWA
 N
@@ -525,25 +525,25 @@ N
 
 [4]
 ! Undefined control sequence.
-l.427 	\membership
+l.431 	\membership
                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.428 	\news
+l.432 	\news
             
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.428 	\news
+l.432 	\news
             
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.428 	\news
+l.432 	\news
             
 ? 
 
@@ -556,7 +556,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.436 	\work
+l.440 	\work
             
 ? 
 
@@ -566,7 +566,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.436 	\work
+l.440 	\work
             
 ? 
 
@@ -576,7 +576,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.436 	\work
+l.440 	\work
             
 ? 
 
@@ -586,7 +586,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.436 	\work
+l.440 	\work
             
 ? 
 
@@ -596,7 +596,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.436 	\work
+l.440 	\work
             
 ? 
 
@@ -606,7 +606,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.437 	\education
+l.441 	\education
                  
 ? 
 
@@ -616,7 +616,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.437 	\education
+l.441 	\education
                  
 ? 
 
@@ -625,11 +625,11 @@ l.437 	\education
 ! Undefined control sequence.
 \workshops ...for the Water Professional'' \empth 
                                                   {MoWaTER PRO: Data Science...
-l.442 	\workshops
+l.446 	\workshops
                  
 ? 
 
-Overfull \hbox (15.03859pt too wide) in paragraph at lines 442--442
+Overfull \hbox (15.03859pt too wide) in paragraph at lines 446--446
 []\OT1/cmr/m/n/10 ``Understanding and Em-brac-ing Ma-chine Learn-ing, Ar-ti-fi-
 cial In-tel-li-gence and Pre-dic-tive An-a-lyt-ics,'' \OT1/cmr/m/it/10 AWWA/SWA
 N
@@ -641,35 +641,35 @@ N
 
 [8]
 ! Undefined control sequence.
-l.450 	\membership
+l.454 	\membership
                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.451 	\news
+l.455 	\news
             
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.451 	\news
+l.455 	\news
             
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.451 	\news
+l.455 	\news
             
 ? 
 
-! LaTeX Error: \begin{list} on input line 436 ended by \end{document}.
+! LaTeX Error: \begin{list} on input line 440 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.469 \end{document}
+l.473 \end{document}
                     
 ? 
 
@@ -684,19 +684,19 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
  )
 (\end occurred inside a group at level 4)
 
-### semi simple group (level 4) entered at line 436 (\begingroup)
-### semi simple group (level 3) entered at line 436 (\begingroup)
-### semi simple group (level 2) entered at line 411 (\begingroup)
-### semi simple group (level 1) entered at line 411 (\begingroup)
+### semi simple group (level 4) entered at line 440 (\begingroup)
+### semi simple group (level 3) entered at line 440 (\begingroup)
+### semi simple group (level 2) entered at line 415 (\begingroup)
+### semi simple group (level 1) entered at line 415 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
  9280 strings out of 473201
  149093 string characters out of 5705185
- 567697 words of memory out of 5000000
+ 568020 words of memory out of 5000000
  32431 multiletter control sequences out of 15000+600000
  562567 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,93p,574b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,574b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/newhartk/AppData/Local/texlive/2024/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/newhartk/AppData/Local/texlive/20
 24/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/newhartk/AppD
@@ -709,7 +709,7 @@ cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users
 /newhartk/AppData/Local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti10.pfb><c:/Users/newhartk/AppData/Local/texlive/2024/texmf-dist/fonts/type1
 /public/cm-super/sfrm1000.pfb>
-Output written on CV.pdf (9 pages, 147121 bytes).
+Output written on CV.pdf (9 pages, 147513 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
